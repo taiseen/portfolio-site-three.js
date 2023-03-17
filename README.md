@@ -1,6 +1,6 @@
 > 16 - March - 2023
 
-# Portfolio Site | [Live Link](https)
+# Portfolio Site | [Live Link](https://p2-sites.netlify.app)
 
 ## Technology used:
 * React
@@ -40,8 +40,3 @@ yarn dev
 
 * 1st download [glTF] formate data from website
     * [Sketchfab](https://sketchfab.com) for 3D Models...
-
-
-<!-- 
-https://github.com/taiseen/portfolio-site-three.js 
--->
