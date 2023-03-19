@@ -26,11 +26,14 @@ yarn dev
 
 
 ## Yarn Dependencies:
-* yarn add @emailjs/browser
+* yarn add maath
 * yarn add three
 * yarn add @react-three/fiber
 * yarn add @react-three/drei
-
+* yarn add @emailjs/browser
+* yarn add react-tilt
+* yarn add framer-motion
+* yarn add react-vertical-timeline-component
 
 ## Learning context:
 
