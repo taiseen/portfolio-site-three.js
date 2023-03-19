@@ -7,7 +7,7 @@ import {
     typescript,
     html,
     css,
-    reactjs,
+    reactJs,
     redux,
     tailwind,
     nodejs,
@@ -22,7 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    threeJs,
 } from "../assets";
 
 export const navLinks = [
@@ -78,7 +78,7 @@ const technologies = [
     },
     {
         name: "React JS",
-        icon: reactjs,
+        icon: reactJs,
     },
     {
         name: "Redux Toolkit",
@@ -98,7 +98,7 @@ const technologies = [
     },
     {
         name: "Three JS",
-        icon: threejs,
+        icon: threeJs,
     },
     {
         name: "git",
