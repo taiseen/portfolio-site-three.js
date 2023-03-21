@@ -1,21 +1,22 @@
-import React, { useRef, useState } from "react";
+import { slideIn } from "../utils/motion";
+import { useRef, useState } from "react";
+import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
+import { EarthCanvas } from "./canvas";
+import { styles } from "../style";
 import emailjs from "@emailjs/browser";
 
-import { styles } from "../style";
-import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+
   const formRef = useRef();
+  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: "",
   });
 
-  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -27,8 +28,10 @@ const Contact = () => {
     });
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
     setLoading(true);
 
     emailjs
