@@ -6,7 +6,6 @@ import ProjectCard from "./child/ProjectCard";
 import MouseEffect from "./child/MouseEffect";
 import Experience from "./Experience";
 import Feedbacks from "./Feedbacks";
-import CanvasLoader from "./Loader";
 import Contact from "./Contact";
 import Form from "./child/Form";
 import Navbar from "./Navbar";
@@ -20,7 +19,6 @@ export {
   ComputersCanvas,
   ExperienceCard,
   FeedbackCard,
-  CanvasLoader,
   EarthCanvas,
   ServiceCard,
   ProjectCard,
